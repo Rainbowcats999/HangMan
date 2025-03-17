@@ -1,2 +1,40 @@
 /*Importing Google font - Open Sans*/
+/*copy font from source code*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=smap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans, sans-serif";
+}
+
+.main {
+  background-color: crimson;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  background-color: white;
+  width: 900px;
+  height: 470px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
