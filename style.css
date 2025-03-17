@@ -38,3 +38,15 @@
   gap: 1.5rem;
   text-align: center;
 }
+
+.left h1 {
+  font-size: 1.5rem;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
