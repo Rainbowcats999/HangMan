@@ -7,18 +7,30 @@
     <title>HangMan Game</title>
     <link rel="stylesheet" href="style.css">
     <!--script-->
-<script src ="wordlist.js" defer></script>
-<script src="script.js" defer></script>
+    <script src="wordlist.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="main">
         <div class="game">
             <div class="left">
                 <!--Get Images From source Code-->
                 <img class="img" src="imgs/hangman-0.svg">
+                <h1>HANGMAN GAME</h1>
             </div>
-            <div class="right"></div>
+            <div class="right">
+                <ul class="word-display">
+
+                </ul>
+                <h4>Hint:Lorem ipsum dolor sit amet consectetur adipiscing elit. Quos, cum?</h4>
+                <p>Incorrect guesses:
+                    <span class="chance" style="color:red;">0/6</span>
+                </p>
+                <div class="keyboard"></div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
