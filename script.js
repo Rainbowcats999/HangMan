@@ -8,3 +8,12 @@ for(let i=97; i<=122;i++){
     button.innerText=String.fromCharCode(i)
     keyboard.appendChild(button);
 }
+
+//get all questions from wordlist.js
+const randomIndex=Math.floor(Math.random()*wordList.length)
+
+const loadQuestion=()=> {
+
+}
+
+loadQuestion();
