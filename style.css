@@ -75,3 +75,16 @@
   margin-top: -30px;
   
 }
+
+keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.btn {
+  width: 50px;
+  
+}
