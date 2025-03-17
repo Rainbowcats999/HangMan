@@ -30,4 +30,8 @@ const wordList = [
     word: "jazz",
     hint: "A genre of music characterized by improvisation and syncopation.",
     },
+
+    {
+        
+    }
 ]

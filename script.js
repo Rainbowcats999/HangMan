@@ -1,5 +1,5 @@
 const keyboard=document.querySelector("keyboard");
-
+const h4=document.querySelector("h4");
 
 //adding keyboard
 for(let i=97; i<=122;i++){
@@ -10,10 +10,11 @@ for(let i=97; i<=122;i++){
 }
 
 //get all questions from wordlist.js
-const randomIndex=Math.floor(Math.random()*wordList.length)
+const randomIndex=Math.floor(Math.random()*wordList.length);
+const {word,hint}=wordList[randomIndex];
 
 const loadQuestion=()=> {
-
+    h4.innerText
 }
 
 loadQuestion();
