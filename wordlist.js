@@ -32,6 +32,12 @@ const wordList = [
     },
 
     {
-        
+    word: "camera",
+    hint: "A device used to capture and record images",
+    },
+
+    {
+    word: "diamond",
+    hint: "A precious gemstone known for its brilliant",
     }
 ]
