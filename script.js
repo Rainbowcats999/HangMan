@@ -1,6 +1,6 @@
 const keyboard=document.querySelector("keyboard");
 const h4=document.querySelector("h4");
-const wordDisplay=document.querySelector(".wordDisplay");
+const wordDisplay=document.querySelector(".wordidisplay");
 
 //adding keyboard
 for(let i=97; i<=122;i++){
