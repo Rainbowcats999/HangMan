@@ -22,7 +22,9 @@ const loadQuestion=()=> {
         wordDisplay.appendChild(liTag)
     })
 
-    
+    document.querySelectorAll(".btn").forEach((v)=>{
+
+    })
 }
 
 loadQuestion();
